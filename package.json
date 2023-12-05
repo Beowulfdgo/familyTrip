@@ -9,5 +9,15 @@
   },
   "scripts": {
     "start": "node index.js"
-  }
+  },
+    "bin": {
+    "familytrip": "bin/server.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "description": ""
 }
