@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
 
 app.get('/', (req, res) => {
-    res.send('Todo OK amigos!');
+    res.send('Todo OK !');
 });
 
 module.exports = app;
