@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
 
-app.get('/', (req, res) => {
+app.get('/alumnos', (req, res) => {
     res.send('Todo OK !');
 });
 
